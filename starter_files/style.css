@@ -1,0 +1,130 @@
+body {
+    background-image: url("img/bg.jpg");
+  }
+
+body > div {
+    background-color: white;
+    margin-left: 5em;
+    margin-right: 5em;
+    border: yellow solid 1px;
+    font-family: sans-serif;
+    border-radius: 2px;
+  }
+
+header {
+    padding: 1em;
+    background-color: #FD8534;
+    padding-bottom: 3em;
+  }
+
+nav {
+    margin-top: 2em;
+    margin-left: .2em;
+  }
+
+nav a {
+    font-weight: 800;
+    text-decoration: none;
+    border: white solid 1px;
+    padding: .4em 1.5em .4em 1.5em;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+  }
+
+h2 {
+    padding-top: 1em;
+    padding-left: 1em;
+    color: #2CACE3;
+  }
+
+p {
+    padding-left: 1.5em;
+  }
+
+p > a {
+    color: #2CACE3;
+  }
+
+h3 {
+    padding-left: 1.25em;
+    color: #2CACE3;
+  }
+
+ul {
+    font-weight: 600;
+    padding-left: 3em;
+    padding-bottom: 4em;
+  }
+
+table {
+    border: 1px solid #2CACE3;
+    margin: 1.5em;
+    border-collapse: collapse;
+  }
+
+td {
+    border: 1px solid #2CACE3;
+}
+
+thead {
+    background-color: #2CACE3;
+    color: white;
+    border: 1px solid blue;
+  }
+
+tbody {
+    border: 1px solid #2CACE3;
+  }
+
+section > h2:nth-last-child(3) {
+    border-top: 1px solid #D9D9D9;
+    border-width: medium;
+  }
+
+form {
+    background-color: #D7D7D7;
+    margin: 1.5em;
+    border-radius: 5px;
+    padding-top: 1px;
+  }
+
+.name {
+    background-color: #FD8534;
+    padding: 1em;
+    margin: 1em;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+
+.city_container {
+    font-weight: 600;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    font-size: 14px;
+  }
+
+form div:nth-child(3) {
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 1em;
+    padding-bottom: 1em;
+  }
+
+#bio {
+    margin-top: 1em;
+}
+
+#submit_button {
+    margin: 1.3em;
+    padding: 1em;
+    background-color: #2CACE3;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    text-align: justify;
+    text-transform: uppercase;
+    font-weight: 600;
+}
